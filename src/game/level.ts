@@ -472,6 +472,10 @@ export function addLevel(
             }
         },
 
+        invalidateSpatialMap() {
+            spatialMap = null;
+        },
+
         invalidateNavigationMap() {
             costMap = null;
             edgeMap = null;
